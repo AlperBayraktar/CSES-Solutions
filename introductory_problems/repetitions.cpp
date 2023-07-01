@@ -1,23 +1,27 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-  char* dna;
-  char repeatingChar = *dna;
-  int currentCount, bestCount;
-  cin >> dna;
+    string dna;
+    cin >> dna;
 
-  while(dna!='\0')
+    char repeatingChar = dna[0];
+    long unsigned int currentCount=0, bestCount=0;
+
+    for (long unsigned int i=0; i<=dna.length(); i++)
     {
-      if (*dna == repeatingChar)
-      {
-        currentCount++;
-      } else {
-        if (currentCount > bestCount) bestCount = currentCount
-          currentCount = 1;
-          repeatingChar = *dna;
-      }
+        if (dna[i]==repeatingChar) currentCount++;
+        else
+        {
+            if (currentCount>bestCount)   
+                bestCount=currentCount;
+            
+            currentCount=1;
+            repeatingChar=dna[i];
+        }
     }
-  
+
+    cout << bestCount;
 }
