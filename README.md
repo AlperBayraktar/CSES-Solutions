@@ -2,15 +2,19 @@
 
 My accepted [CSES](https://cses.fi/problemset/) solutions.
 
-## Contents
+# Contents
 
 -   [CSES Solutions \[in dev.\]](#cses-solutions-in-dev)
-    -   [Contents](#contents)
-        -   [Introductory Problems](#introductory-problems)
+-   [Contents](#contents)
+    -   [C++ Solutions](#c-solutions)
+        -   [Introductory Problems (Cpp)](#introductory-problems-cpp)
 
-### Introductory Problems
+## [C++ Solutions](#cpp-solutions)
 
--   [Weird Algorithm](introductory_problems/weird_algorithm.cpp)
--   [Missing Number)](introductory_problems/missing_number.cpp)
--   [Repetitions](introductory_problems/repetitions.cpp)
--   [Increasing Array](introductory_problems/increasing_array.cpp)
+### Introductory Problems (Cpp)
+
+-   [Weird Algorithm](introductory_problems/cpp/weird_algorithm.cpp)
+-   [Missing Number](introductory_problems/cpp/missing_number.cpp)
+-   [Repetitions](introductory_problems/cpp/repetitions.cpp)
+-   [Increasing Array](introductory_problems/cpp/increasing_array.cpp)
+-   [Permutations](introductory_problems/cpp/permutations.cpp)
