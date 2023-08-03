@@ -1,8 +1,11 @@
-run_cpp:
+compile_cpp:
 	g++ $(path) -o output
 	./output
 
 
-run_c:
+compile_c:
 	gcc $(path) -o output
+	./output
+
+run:
 	./output
